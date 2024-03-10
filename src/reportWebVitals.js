@@ -7,6 +7,9 @@ const reportWebVitals = onPerfEntry => {
       getLCP(onPerfEntry);
       getTTFB(onPerfEntry);
     });
+    console.log("web-vitals")
+  } else {
+    console.log("Not called")
   }
 };
 
